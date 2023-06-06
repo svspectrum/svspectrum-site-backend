@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_archive_subtitles",
+  "info": {
+    "displayName": "subtitle",
+    "icon": "th-large",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

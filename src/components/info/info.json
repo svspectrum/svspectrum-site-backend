@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_info_infos",
+  "info": {
+    "displayName": "Category",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subcategories": {
+      "displayName": "subcategory",
+      "type": "component",
+      "repeatable": true,
+      "component": "info.subcategory",
+      "required": true
+    }
+  }
+}

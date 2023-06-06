@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_archive_links",
+  "info": {
+    "displayName": "link",
+    "icon": "file-code"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+    
+  }
+}

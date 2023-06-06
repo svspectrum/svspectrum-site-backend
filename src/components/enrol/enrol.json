@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_enrol_enrols",
+  "info": {
+    "displayName": "Enrol",
+    "icon": "receipt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "deadline": {
+      "type": "datetime"
+    },
+    "limit": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "closed": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "infos",
+  "info": {
+    "singularName": "info",
+    "pluralName": "infos",
+    "displayName": "Info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "info.info",
+      "required": true
+    }
+  }
+}

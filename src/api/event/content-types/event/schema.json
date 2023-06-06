@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "packing_list": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "richtext",
+      "required": false
+    },
+    "parts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "parts.parts",
+      "required": true
+    },
+    "updates": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post",
+      "mappedBy": "event"
+    },
+    "enrol": {
+      "type": "component",
+      "repeatable": true,
+      "component": "enrol.enrol"
+    },
+    "extra_info": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

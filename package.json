@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "2.0.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.0.9",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/strapi": "4.1.12",
+    "better-sqlite3": "7.4.6",
+    "dayjs": "^1.11.3",
+    "ical-generator": "^3.4.2",
+    "mysql": "^2.18.1",
+    "slugify": "^1.6.5",
+    "strapi-plugin-placeholder": "^4.1.7",
+    "strapi-plugin-populate-deep": "^0.1.2"
+  },
+  "author": {
+    "name": "Steven Vroom"
+  },
+  "strapi": {
+    "uuid": "62b4313c-9978-407c-ab30-206c824fbe9a"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

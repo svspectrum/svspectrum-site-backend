@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_archive_titles",
+  "info": {
+    "displayName": "title",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

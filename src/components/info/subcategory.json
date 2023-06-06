@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_info_subcategories",
+  "info": {
+    "displayName": "subcategory",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    }
+  }
+}

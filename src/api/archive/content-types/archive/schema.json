@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "archives",
+  "info": {
+    "singularName": "archive",
+    "pluralName": "archives",
+    "displayName": "Archive",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "archive.title",
+        "archive.subtitle",
+        "archive.link",
+        "archive.file"
+      ]
+    }
+  }
+}
